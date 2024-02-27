@@ -1,0 +1,30 @@
+_id: req_f34b297f598f4fd9b84529d0dbbbe403
+type: Request
+parentId: fld_efe66a3cf8b54ba1b72ee9d0abb1b009
+modified: 1709044101023
+created: 1709042799582
+url: "{{ _['call-report']
+  }}/call/queue-performance/transference-report?companyId=c3fd21c9-c91a-4c66-ba\
+  a5-c3e050c2cc74&createdAtGt=2023-12-04T03:00:00.000Z&createdAtLt=2023-12-05T0\
+  2:59:59.999Z&queues=AdsonCall,Engenharia,Financeiro,GRUPOTESTEE,GustavoBraga,\
+  RozenaldoF,Summit,Suporte,TesteRemove"
+name: "Get queue performance "
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_7d3709c7841640099d26c01125c5b7bf',
+    'b64::JC50b2tlbg==::46b', 'when-expired', 518400 %}"
+metaSortKey: -1709042799582
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

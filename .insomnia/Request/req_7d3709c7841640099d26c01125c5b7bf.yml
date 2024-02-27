@@ -1,0 +1,31 @@
+_id: req_7d3709c7841640099d26c01125c5b7bf
+type: Request
+parentId: fld_2b57eff63228442d89c1f6fd7b40e257
+modified: 1709043805476
+created: 1709043730739
+url: https://auth.test.opens.com.br/auth
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"mail": "adison.reis@opens.com.br",
+    	"password": "baiano"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1709043730739
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
