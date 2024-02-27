@@ -1,25 +1,47 @@
 _id: req_f34b297f598f4fd9b84529d0dbbbe403
 type: Request
 parentId: fld_efe66a3cf8b54ba1b72ee9d0abb1b009
-modified: 1709044101023
+modified: 1709053156012
 created: 1709042799582
-url: "{{ _['call-report']
-  }}/call/queue-performance/transference-report?companyId=c3fd21c9-c91a-4c66-ba\
-  a5-c3e050c2cc74&createdAtGt=2023-12-04T03:00:00.000Z&createdAtLt=2023-12-05T0\
-  2:59:59.999Z&queues=AdsonCall,Engenharia,Financeiro,GRUPOTESTEE,GustavoBraga,\
-  RozenaldoF,Summit,Suporte,TesteRemove"
+url: "{{ _['call-report'] }}/call/queue-performance"
 name: "Get queue performance "
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - name: companyId
+    value: c3fd21c9-c91a-4c66-baa5-c3e050c2cc74
+    id: pair_8a054cca4f004c50b011881c6530531c
+  - name: createdAtGt
+    value: "{% DateAdd 0, -6, 0, 'YYYY-MM-DDTHH:mm:ssZ' %}"
+    id: pair_8261c393174f4b2fac80692fca8b217e
+  - name: createdAtLt
+    value: "{% DateAdd 0, 0, 0, 'YYYY-MM-DDTHH:mm:ssZ' %}"
+    id: pair_5ac3b48b304f4ccc9508d35e35cafff0
+  - name: queues
+    value: AdsonCall,Engenharia,Financeiro,GRUPOTESTEE,GustavoBraga,RozenaldoF,Summit,Suporte,TesteRemove,Comercial
+    id: pair_aabbcc0e6a164b6a8da3bc9ea7bdcaf3
+  - id: pair_25f500ee9aeb4db9a0386fdaa6de1068
+    name: slaTmeTarget
+    value: "1200"
+    description: ""
+  - id: pair_5be023ca085c4beaaf458fc984ec4054
+    name: slaTmaTarget
+    value: "1200"
+    description: ""
 headers:
   - name: User-Agent
     value: Insomnia/2023.5.7
+    id: pair_bcf767f6054441c8a230f80aec8457b5
+  - id: pair_1fd63514f95c40c4a452ca58b20114a8
+    name: ""
+    value: ""
+    description: ""
 authentication:
   type: bearer
   token: "{% response 'body', 'req_7d3709c7841640099d26c01125c5b7bf',
     'b64::JC50b2tlbg==::46b', 'when-expired', 518400 %}"
+  prefix: ""
 metaSortKey: -1709042799582
 isPrivate: false
 settingStoreCookies: true
