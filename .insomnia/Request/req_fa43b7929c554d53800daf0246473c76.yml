@@ -1,0 +1,23 @@
+_id: req_fa43b7929c554d53800daf0246473c76
+type: Request
+parentId: fld_fc7d9bc4fabb47d98806810ab404690a
+modified: 1709228373576
+created: 1709228360152
+url: "{{ _['system-messages'] }}/process/chat:terminated"
+name: By id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1709228360152
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

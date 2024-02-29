@@ -1,0 +1,37 @@
+_id: req_22f66e4f20434ac4ac675b37d8fd23b6
+type: Request
+parentId: fld_f5b8f3981db240219fbc22066364a92d
+modified: 1709150859305
+created: 1709129395058
+url: http://localhost:8080/call/queue-performance
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: companyId
+    value: c3fd21c9-c91a-4c66-baa5-c3e050c2cc74
+  - name: createdAtGt
+    value: 2024-02-28T03:00:00.000Z
+  - name: createdAtLt
+    value: 2024-02-28T18:40:10.749Z
+  - name: queues
+    value: Comercial
+  - name: slaTmeTarget
+    value: "1200"
+  - name: slaTmaTarget
+    value: "1200"
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication:
+  type: bearer
+  token: "{{ _.token_admin }}"
+metaSortKey: -1709129395058
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

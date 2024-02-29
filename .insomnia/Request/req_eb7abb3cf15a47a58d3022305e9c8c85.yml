@@ -1,0 +1,33 @@
+_id: req_eb7abb3cf15a47a58d3022305e9c8c85
+type: Request
+parentId: fld_3aedb6487ad94f078cba0302160e5df1
+modified: 1709227945757
+created: 1709227719592
+url: "{{ _['system-messages'] }}/message"
+name: Create message
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "text": "{% faker 'lorem', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'slug', '', '', '', '', '', '', '', '', '', 'pt_BR' %}",
+      "linkedId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "companyId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "processId": "chat:terminated"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1709227719592
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

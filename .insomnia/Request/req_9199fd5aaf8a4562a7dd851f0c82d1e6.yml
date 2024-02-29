@@ -1,0 +1,27 @@
+_id: req_9199fd5aaf8a4562a7dd851f0c82d1e6
+type: Request
+parentId: fld_3aedb6487ad94f078cba0302160e5df1
+modified: 1709228361824
+created: 1709227962163
+url: "{{ _['system-messages'] }}/message"
+name: Find message
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_7b2475ae411848ba9d02873964e382d4
+    name: $limit
+    value: "1"
+    description: ""
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1709228169468.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

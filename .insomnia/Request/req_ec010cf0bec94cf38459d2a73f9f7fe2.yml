@@ -1,0 +1,23 @@
+_id: req_ec010cf0bec94cf38459d2a73f9f7fe2
+type: Request
+parentId: fld_3aedb6487ad94f078cba0302160e5df1
+modified: 1709227902665
+created: 1709227884026
+url: "{{ _['system-messages'] }}/message/82d94f72-3460-46da-b78b-2aaa5964ea96"
+name: Delete message
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1709227884026
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

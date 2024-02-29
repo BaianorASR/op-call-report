@@ -1,0 +1,23 @@
+_id: req_a982e71bed064373a8fbd9b97d6d1ebe
+type: Request
+parentId: fld_5155da24c8354c0097596f62578670f3
+modified: 1709227662877
+created: 1709227632513
+url: "{{ _['system-messages'] }}/variable/1"
+name: By id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1709227632513
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

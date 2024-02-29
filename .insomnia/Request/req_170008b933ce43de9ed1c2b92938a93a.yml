@@ -1,0 +1,30 @@
+_id: req_170008b933ce43de9ed1c2b92938a93a
+type: Request
+parentId: fld_3aedb6487ad94f078cba0302160e5df1
+modified: 1709228302206
+created: 1709228022232
+url: "{{ _['system-messages'] }}/message/6c832d66-a725-48ad-bea5-6d0bdb000d8c"
+name: Update message
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"text": "ALO"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1709228022232
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
