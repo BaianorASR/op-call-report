@@ -1,14 +1,16 @@
 _id: env_8a77bba9955b46768535495985295e52
 type: Environment
 parentId: env_0f9dddf4b22682e69b4d859658661f55e21736aa
-modified: 1709043411011
+modified: 1709226966903
 created: 1709042862048
 name: Localhost
 data:
   call-report: http://localhost:8080
+  system-messages: http://localhost:3324
 dataPropertyOrder:
   "&":
     - call-report
+    - system-messages
 color: "#5f8bf2"
 isPrivate: false
 metaSortKey: 1709042862048

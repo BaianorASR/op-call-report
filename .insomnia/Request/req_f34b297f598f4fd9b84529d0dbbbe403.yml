@@ -1,7 +1,7 @@
 _id: req_f34b297f598f4fd9b84529d0dbbbe403
 type: Request
 parentId: fld_efe66a3cf8b54ba1b72ee9d0abb1b009
-modified: 1709053156012
+modified: 1709078273784
 created: 1709042799582
 url: "{{ _['call-report'] }}/call/queue-performance"
 name: "Get queue performance "
@@ -13,10 +13,10 @@ parameters:
     value: c3fd21c9-c91a-4c66-baa5-c3e050c2cc74
     id: pair_8a054cca4f004c50b011881c6530531c
   - name: createdAtGt
-    value: "{% DateAdd 0, -6, 0, 'YYYY-MM-DDTHH:mm:ssZ' %}"
+    value: 2024-02-26T00:00:00.000Z
     id: pair_8261c393174f4b2fac80692fca8b217e
   - name: createdAtLt
-    value: "{% DateAdd 0, 0, 0, 'YYYY-MM-DDTHH:mm:ssZ' %}"
+    value: 2024-02-27T23:59:59.999Z
     id: pair_5ac3b48b304f4ccc9508d35e35cafff0
   - name: queues
     value: AdsonCall,Engenharia,Financeiro,GRUPOTESTEE,GustavoBraga,RozenaldoF,Summit,Suporte,TesteRemove,Comercial
